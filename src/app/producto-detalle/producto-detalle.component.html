@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="card">
+      <img [src]="producto.imagen" class="card-img-top" alt="{{ producto.nombre }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ producto.nombre }}</h5>
+        <p class="card-text">{{ producto.descripcion }}</p>
+        <p class="card-text"><strong>Precio: </strong>{{ producto.precio }}€</p>
+        <p class="card-text"><strong>Stock: </strong>{{ producto.stock }}</p>
+        <a routerLink="/" class="btn btn-primary">Volver a la lista</a>
+      </div>
+    </div>
+  </div>
+  
